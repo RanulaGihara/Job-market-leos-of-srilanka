@@ -1,0 +1,37 @@
+.notice_item {
+	width: 90%;
+	margin-left: 5%;
+	text-align: left;
+	float: left;
+}
+
+#end_notice {
+	border: 1px solid grey;
+}
+
+#title {
+	background-color: grey;
+	color: black;
+}
+
+.add_notice_input {
+	height: 120px;
+	color: white;
+	background: grey;
+	border: 1px solid black;
+}
+
+.open_modal {
+	background-color: black;
+	border: 1px solid #aa9166;
+	color: #aa9166;
+	font-size: 18px;
+}
+
+#notice_img {
+	width: 20%;
+}
+
+#notice_content {
+	width: 70%;
+}

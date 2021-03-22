@@ -1,0 +1,194 @@
+.subject_title {
+	font-size: 40px;
+	color: Arial, sans-serif;
+}
+
+.subj_section {
+	width: 90%;
+	margin-left: 5%;
+	float: left;
+	text-align: center;
+}
+
+
+.subj_section h2{
+	font-size: 40px;
+	text-align: center;
+	color: #aa9166;
+	margin-bottom: 0px;
+}
+
+.separate_title {
+	border: 2px solid #aa9166;
+	width: 60%;
+	margin-top: 5px;
+}
+
+.separate_section {
+	border: 1px solid #aa9166;
+	width: 90%;
+}
+
+.subj_lect {
+	width: 250px;
+	height: 300px;
+	border: 1px solid #aa9166;
+	float: left;
+	margin-left: 0%;
+	margin-right: 5%;
+}
+
+.subj_section .subj_lect_name {
+	font-size: 30px;
+	color: grey;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.subj_section_content_lect {
+	font-size: 20px;
+	color: black;
+	margin-left: 5%;
+	width: 90%;
+	height: 500px;
+}
+
+.subj_section_content {
+	font-size: 20px;
+	color: black;
+	margin-left: 50px;
+	
+}
+
+
+.subj_category {
+	color: #aa9166;
+	font-size: 22px;
+}
+	
+* {
+  box-sizing: border-box;
+}
+
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #111;
+  color: #aa9166;
+  font-size: 30px;
+}
+
+.price li {
+  border-bottom: 1px solid #aa9166;
+  padding: 20px;
+  text-align: center;
+  background-color: grey;
+  font-size: 18px;
+  color: white;
+}
+
+
+.reg_all_btn {
+ 
+ background-color: black;
+  border: #aa9166;
+  color: #aa9166;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+	
+
+/* Container holding the image and the text */
+.class_list_item {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  
+}
+
+/* Centered text */
+.centered_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.class_list {
+	float: left;
+	text-align: center;
+}
+
+.class_list_item #class_img {
+	/* Add the blur effect */
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  height: 250px;
+}
+
+.class_list_item #enter_class {
+	background-color: gray;
+	color: black;
+	font-size: 30px;
+	border: 0px;
+	  margin-bottom: 30%;
+}
+
+/*
+.acc-nav-list {
+  list-style-type: none;
+  margin-bottom: 0;
+  padding: 0;
+  width: 20%;
+ /* background-color: black; 
+  height: 40%; 
+  position: fixed; /* Make it stick, even on scroll */
+  /*overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+/*
+.acc-nav-list-item {
+  display: block;
+  color: #aa9166;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Change the link color on hover 
+.acc-nav-list-item .acc-nav-list-item:hover {
+  background-color: black;
+  color: #aa9166;
+}
+
+.acc-nav-list-item-active {
+  background-color: #aa9166;
+  color: black;
+}
+*/
+
+.content {
+	width: 90%;
+	margin-left: 50px;
+}
